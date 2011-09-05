@@ -1,16 +1,1 @@
-#user aliases
-alias jruby='rvm use jruby'
-
-##pacman
-alias pacu='sudo pacman -Syu '
-alias paci='sudo pacman -S '
-alias pacs='pacman -Ss '
-
-##git
-alias gitc='git commit -m '
-alias gita='git add -A'
-
-##coffeescript
-alias cbatch='coffee --output public/js/app.js --join --compile coffee/*.coffee'
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+/home/brad/.zsh-aliases
